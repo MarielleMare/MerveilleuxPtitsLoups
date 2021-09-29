@@ -1,0 +1,142 @@
+html{
+    background-color :rgb(246, 236, 250);
+}
+header{
+    background-color: white;
+    width: auto;
+    height: 100px;
+
+}
+header img{
+    float: left;
+    width: 200px;
+    height: auto;
+    background: rgb(255, 255, 255);
+    margin-left: 3%;
+  }
+@font-face {
+      font-family: "policeFacile";
+      src: url(fonts/GEORGIAB.TTF);
+  }
+header h1{
+    color: rgb(153, 7, 153);
+    font-size: 2em;
+    text-align: center;
+    padding-top: 2%;
+    margin-right: 12%;
+}
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(219, 139, 243);
+    position: sticky;
+    top: 0px;
+}
+nav ul{
+    list-style-type: none;
+    position: relative;
+    top: 0;
+    left: 10%;
+}
+nav li{
+     float: left;
+     width: 25%;
+     text-align: center;
+}
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+nav a{
+    display:block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid transparent;
+    padding: 15px 0px;
+}
+nav a:hover{
+    color: rgb(153, 7, 153);
+    border-bottom: 2px solid purple;
+}
+.intro{
+    text-align: center;
+    padding: 30px 0;
+}
+.chapitre1{
+    background-color: white;
+    padding: 30px 0;
+}
+.container{
+    column-count: 2;
+    border-spacing: 5px;
+    list-style-type: none;
+}
+.chapitre2{
+    padding: 30px 0;
+}
+li{
+    padding: 20px 0;
+}
+div{
+    background-color: dimgray;
+    float: left;
+    width: 148px;
+    height: 26px;
+    text-align: center;    
+}
+.année{
+    color: white;
+    padding: 8px 0 0;
+}
+.années{
+    color: white;
+    padding: 8px 0 0;
+}
+.chapitre3{
+    background-color: white;
+    padding: 30px 0;
+}
+.chapitre4{
+    padding: 30px 0;
+}
+.chapitre5{
+    padding: 30px 0;
+}
+h3{
+    margin-left: 6%;
+    margin-right:6%;
+    font-family: georgia;
+    color: rgb(26, 0, 26);
+}
+hgroup > h4, p, ul{
+    color :rgb(26, 29, 29);
+    font-family: arial;
+    font-size: 1em;
+    text-align: justify;
+    margin-left: 6%;
+    margin-right:6%;
+}
+h2{
+    margin-left: 6%;
+    margin-right:6%;
+    font-family: georgia;
+    color: purple;
+}
+hr {
+    text-align: center;
+    background: gray;
+    width: auto;
+    height: 1px;
+}
+footer{
+    background-color: white;
+    width: auto;
+    height: 100px;
+}
+.footer{
+    text-align: center;   
+}
+.présentation{
+    padding: 30px 0;
+}

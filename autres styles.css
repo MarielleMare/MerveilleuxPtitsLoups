@@ -1,0 +1,7 @@
+div{
+    list-style-type: none;
+}
+#container{
+    display: flex;
+    color: cyan;
+}
